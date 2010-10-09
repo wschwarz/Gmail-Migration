@@ -1,0 +1,25 @@
+G-mail Migration Application
+
+Purpose:
+  -Migrate all e-mails, settings, contacts, and folders from current Imail system to Google Apps
+  -Ensure each account is migrated once and only once.
+  -Clean-up old account and set proper forwarding rules on old Imail system.
+  -Constantly running via CRON.
+    
+Target:
+  -Several thousand student accounts (Top Priority)
+  -~20,000 alumni accounts (Medium Priority)
+  -Misc accounts
+  
+Workflow:
+  -Participants sign-up via an aspx page and select the settings they wish moved over
+  -Information is stored in MS SQL db.
+  -This application picks up the new entries, informs the user their migration is starting,
+  runs the various requested migrations, informs the user that migration has finished, and 
+  cleans up the old account.
+  -User is removed from participant list and Imail account is no longer accessible.
+  
+All Migrations completed Fall 2009.
+
+Disclaimer: Google APIs may have changed since the creation of this application.
+  
