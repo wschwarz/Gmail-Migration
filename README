@@ -18,7 +18,14 @@ Workflow:
   runs the various requested migrations, informs the user that migration has finished, and 
   cleans up the old account.
   -User is removed from participant list and Imail account is no longer accessible.
-  
+
+Description
+  During the summer of 2009 the UCLA School of Law acquired a Google Apps account and decided
+to use Google to host email services for the law school. In order to implement this without
+interfering with current students, staff and faculty email usage a migration tool was 
+requested. This tool would migrate all necessary and data from the old Imail system into
+G-mail using the Google Apps API.
+   
 All Migrations completed Fall 2009.
 
 Disclaimer: Google APIs may have changed since the creation of this application.
